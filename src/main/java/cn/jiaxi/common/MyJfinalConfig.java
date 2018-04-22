@@ -29,6 +29,7 @@ public class MyJfinalConfig extends JFinalConfig {
 		 * 不设置该参数时  则不会有热启动
 		 */
 		JFinal.start("src/main/webapp", 80, "/",1);
+		
 		//JFinal.start(webAppDir, port, context, scanIntervalSeconds);
 		
 	}
