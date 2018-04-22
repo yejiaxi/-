@@ -1,0 +1,6 @@
+#zeroDateTimeBehavior=convertToNull 表示在操作时间字段时 当时间字段为0000-00-00 00:00:00时  转换成null
+jdbcUrl = jdbc:mysql://localhost:3306/jfinal_test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+username = root
+password = 123456
+
+uploadBasePath = 
